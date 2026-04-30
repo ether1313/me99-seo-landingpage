@@ -1,0 +1,23 @@
+node_modules/
+dist/
+.vercel/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Env
+.env
+.env.*
+
+# Optional caches
+.eslintcache
+.cache/
+
