@@ -18,6 +18,14 @@ const providers = [
       "Exclusive fishing games and arcade-style casino games",
       "Mobile-optimised HTML5 engine for seamless play on any device",
     ],
+    descriptionHeadings: [
+      "Overview",
+      "Top JILI titles Australians love",
+      "Mobile-first gameplay performance",
+      "Fishing games & arcade-style casino games",
+      "Security, fairness & RTP transparency",
+      "Why play JILI on ME99",
+    ],
     description: `JILI Games is one of the fastest-growing online casino game providers in Asia. Its partnership with ME99 gives Australian players access to some of the most visually impressive and mechanically innovative real money pokies on the market. JILI's portfolio focuses on what modern slot players want: high-volatility gameplay, immersive storytelling, and bonus features that reward patience and strategy.
 
 For Australian players searching for the best online pokies Australia has to offer, JILI delivers titles like Super Ace, a card-themed slot with cascading reels and progressive multipliers that can reach 1,500x. Boxing King features an adrenaline-pumping free spins round where every knockout punch boosts your win multiplier. Golden Empire takes players on an ancient treasure hunt with expanding wilds and a hold-and-win bonus game that regularly produces five-figure payouts for lucky ME99 members.
@@ -44,6 +52,15 @@ Whether you are a high-roller chasing massive multipliers or a casual player who
       "Grand, Major, and Mini jackpots built into every slot game",
       "Stunning Egyptian, fantasy, and mythological visual themes",
       "Seamless integration with ME99's AUD 10 minimum deposit system",
+    ],
+    descriptionHeadings: [
+      "Overview",
+      "Signature Hold-and-Win jackpots",
+      "Iconic BNG slots on ME99",
+      "Premium art direction & themes",
+      "RNG security, stability & performance",
+      "Promotions, tournaments & localised jackpots",
+      "Why start with BNG on ME99",
     ],
     description: `Booongo, widely known as BNG, is a premium online casino game provider that has changed the real money pokies landscape with its signature Hold-and-Win bonus mechanic. For Australian players at ME99, BNG offers visual spectacle and genuine winning potential. Every BNG slot comes with three built-in progressive jackpots (Grand, Major, and Mini) that can trigger on any spin, regardless of bet size.
 
@@ -73,6 +90,15 @@ If you want life-changing wins without sacrificing visual quality or gameplay de
       "Popular among Australian high-rollers for AUD 100+ max bet support",
       "RTP transparency with published monthly payout reports",
       "Unique tournament-ready games with built-in leaderboard integration",
+    ],
+    descriptionHeadings: [
+      "Overview",
+      "High-volatility design philosophy",
+      "Big-win mechanics & popular titles",
+      "RTP transparency & reporting",
+      "Fast engine performance on mobile",
+      "Tournament-ready infrastructure on ME99",
+      "Why VPOWER is built for big outcomes",
     ],
     description: `VPOWER Gaming has carved out a distinctive niche in the online casino game providers market by focusing on high-volatility, high-reward real money pokies for players who chase big payouts. For Australian players at ME99, VPOWER is the adrenaline-fueled edge of the platform's 4,000+ game library. Titles where a single spin can turn a modest AUD 10 deposit into a four-figure or even five-figure win.
 
@@ -184,14 +210,21 @@ export default function ProvidersSeoSection() {
 
                 {/* Description (full width) */}
                 <div className="mt-8">
-                  {provider.description.split("\n\n").map((paragraph) => (
-                    <p
-                      key={`${provider.name}-${paragraph.slice(0, 48)}`}
-                      className="text-gray-600 text-sm md:text-base leading-relaxed mb-4 last:mb-0"
-                    >
-                      {paragraph}
-                    </p>
-                  ))}
+                  {provider.description.split("\n\n").map((paragraph, idx) => {
+                    const heading = provider.descriptionHeadings?.[idx];
+                    return (
+                      <section key={`${provider.name}-${heading ?? "section"}-${paragraph.slice(0, 48)}`} className="mb-6 last:mb-0">
+                        {heading && (
+                          <h3 className="font-display text-base md:text-lg font-bold text-gray-900 mb-2">
+                            {heading}
+                          </h3>
+                        )}
+                        <p className="text-gray-600 text-sm md:text-base leading-relaxed">
+                          {paragraph}
+                        </p>
+                      </section>
+                    );
+                  })}
                 </div>
               </div>
             </article>
