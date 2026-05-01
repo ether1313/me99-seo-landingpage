@@ -21,7 +21,7 @@ const popularGames = [
   },
   {
     icon: "ri-gamepad-line",
-    title: "Slots – Gates of Olympus & More",
+    title: "Slots: Gates of Olympus & More",
     sub: "1,200+ Slot Titles",
     desc: "Gates of Olympus, Mahjong Ways 2, Sweet Bonanza, Starlight Princess, and Book of the Dead. Optimized for mobile play on Android and iOS. Free demo modes available without a deposit.",
     tag: "Slots",

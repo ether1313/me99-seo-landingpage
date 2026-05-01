@@ -20,8 +20,8 @@ const welcomeOffers = [
   {
     icon: "ri-smartphone-line",
     title: "ME99 App Bonus",
-    sub: "AUD 15 App Install",
-    desc: "Download the ME99 mobile app and get an exclusive AUD 15 bonus. Available on Android and iOS devices.",
+    sub: "Every Deposit Random Bonus",
+    desc: "Download the ME99 app from the official site and keep claiming EVERY DEPOSIT RANDOM BONUS rewards on the go. The wording matches the ME99 AUS app banner on me99office.net.",
   },
 ];
 
@@ -37,7 +37,7 @@ export default function PromotionsSection() {
             Welcome Offers at <span className="text-gradient-orange">ME99</span>
           </h2>
           <p className="text-gray-500 text-sm md:text-base max-w-xl mx-auto">
-            New Australian members get a FREE AUD 10 on registration plus a generous multi-tier bonus system designed to reward every deposit and every session.
+            New Australian members get FREE AUD 10 on registration, then stack Welcome Bonus doubles, EVERY DEPOSIT RANDOM BONUS drops, weekly rebates up to 5%, and weekly 7% referral commissions. Those pillars match what me99office.net markets today.
           </p>
         </div>
 

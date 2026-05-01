@@ -2,7 +2,7 @@ const steps = [
   { num: 1, text: "Visit the ME99 website or open the ME99 app, then click the Register button." },
   { num: 2, text: "Enter your Full Name. It must match your bank account name for smooth withdrawals." },
   { num: 3, text: "Input your Australian mobile number (e.g. 61480050689)." },
-  { num: 4, text: "Create a secure password between 6–20 characters." },
+  { num: 4, text: "Create a secure password between 6 and 20 characters." },
   { num: 5, text: "Enter a Referrer Code (e.g. RFFBLEAD) if you have one. Optional but recommended." },
   { num: 6, text: "Click GET CODE to receive your SMS verification code, then enter it in the Verification Code field." },
   { num: 7, text: "Click the REGISTER button. Your account is ready instantly. Claim your FREE $10 and start playing!" },
@@ -65,7 +65,7 @@ export default function RegistrationSection() {
                 <div>
                   <h4 className="font-display font-bold text-gray-900 text-sm mb-2">FREE $10 on Registration + Welcome Bonus</h4>
                   <p className="text-gray-500 text-xs leading-relaxed">
-                    After registration, you get a FREE $10 credit instantly. No deposit needed. Make your first deposit of AUD 10 or more to unlock the 100% Welcome Bonus. Daily First Deposit 30%, Live Welcome 50%, and Sport Welcome 50% bonuses are also available.
+                    After registration, you get a FREE $10 credit instantly. No deposit needed. Fund AUD 10 or more, then visit Promotions on ME99 (same journey described on me99office.net) to activate your Welcome Bonus and EVERY DEPOSIT RANDOM BONUS pathways. Weekly rebate up to 5% and weekly 7% referral commission stack with campaigns such as Daily Easy Step Free 100 and Monthly Deposit Ranking. Confirm live turnover rules inside each promo tile before opting in.
                   </p>
                 </div>
               </div>

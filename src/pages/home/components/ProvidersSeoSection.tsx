@@ -112,7 +112,7 @@ Technically, VPOWER games run on a proprietary engine called VPE (VPOWER Play En
 
 VPOWER's partnership with ME99 goes beyond game delivery into promotional infrastructure. The provider's tournament-ready architecture lets ME99 run real-time leaderboard competitions on VPOWER titles without requiring players to opt in or manually report scores. Simply spinning on a participating VPOWER game automatically enters you into the tournament, with prizes ranging from free spins to cash bonuses and even physical merchandise delivered to Australian addresses. These integrated tournaments have become a defining feature of the ME99 VPOWER experience and are unavailable on competing platforms.
 
-For Australian players who believe the best online pokies Australia experience should offer genuine transformational win potential, VPOWER's high-volatility portfolio on ME99 is the destination. Combined with the platform's 100% Welcome Bonus, 30% Daily First Deposit Bonus, and AUD 10 minimum deposit threshold, VPOWER games provide a compelling path from small stakes to significant returns. Register at ME99 today, claim your FREE $10, and discover why VPOWER has become the provider of choice for Australia's most ambitious online casino enthusiasts.`,
+For Australian players who believe the best online pokies Australia experience should offer genuine transformational win potential, VPOWER's high-volatility portfolio on ME99 is the destination. Combined with the platform's 100% Welcome Bonus (activated via Promotions after your qualifying deposit), EVERY DEPOSIT RANDOM BONUS surprises, weekly rebate up to 5%, weekly 7% referral commission, and the AUD 10 minimum deposit threshold, VPOWER games provide a compelling path from small stakes to significant returns. Register at ME99 today, claim your FREE $10, and discover why VPOWER has become the provider of choice for Australia's most ambitious online casino enthusiasts.`,
   },
 ];
 
@@ -144,7 +144,7 @@ export default function ProvidersSeoSection() {
             <strong>Online pokies Australia</strong> players expect games that load fast on mobile, look sharp on any screen, and offer bonus mechanics beyond basic free spins. JILI delivers Asian-themed slots and arcade hybrids. BNG leads the jackpot space with its Hold-and-Win engine. VPOWER serves the high-volatility crowd with multiplier-heavy designs and tournament-ready games. Together, these three providers form the backbone of ME99's slot portfolio and are a big reason why over 50,000 Australian players choose ME99 as their main <strong>online pokies</strong> destination.
           </p>
           <p className="text-gray-600 text-sm md:text-base leading-relaxed">
-            All JILI, BNG, and VPOWER games on ME99 are accessible with the platform's signature <strong>AUD 10 minimum deposit</strong>. New members get a <strong>FREE $10 registration bonus</strong> that can be used immediately on any provider's titles. The <strong>100% Welcome Bonus</strong> doubles your first deposit, and the <strong>30% Daily First Deposit Bonus</strong> gives regular players extra bankroll to try new releases. With 24/7 support via Live Chat, WhatsApp, and Telegram, and a <strong>100% Guaranteed Payout</strong> policy Verified by TPA, ME99 delivers the full package for Australian players who want quality, security, and reward potential.
+            All JILI, BNG, and VPOWER games on ME99 are accessible with the platform's signature <strong>AUD 10 minimum deposit</strong>. New members get a <strong>FREE $10 registration bonus</strong> that can be used immediately on any provider's titles. The <strong>100% Welcome Bonus</strong> doubles your first deposit once activated inside Promotions, while <strong>EVERY DEPOSIT RANDOM BONUS</strong>, <strong>weekly rebates up to 5%</strong>, and <strong>weekly 7% referral commission</strong> mirror the bonus pillars marketed on me99office.net. With 24/7 support via Live Chat, WhatsApp, and Telegram, and a <strong>100% Guaranteed Payout</strong> policy Verified by Trusted Pokies Australia (TPA), ME99 delivers the full package for Australian players who want quality, security, and reward potential.
           </p>
         </article>
 
@@ -171,7 +171,7 @@ export default function ProvidersSeoSection() {
                       </span>
                     </div>
                     <p className="text-gray-400 text-xs mt-1">
-                      Certified RNG | Mobile Optimised | AUD Supported
+                      Certified RNG, mobile optimised, AUD supported
                     </p>
                   </div>
                 </div>

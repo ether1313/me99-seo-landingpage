@@ -11,7 +11,7 @@ const contactChannels = [
   { channel: "Live Chat", availability: "24/7", language: "English", response: "Under 2 minutes" },
   { channel: "WhatsApp", availability: "24/7", language: "English", response: "Under 5 minutes" },
   { channel: "Telegram", availability: "24/7", language: "English", response: "Under 5 minutes" },
-  { channel: "FAQ / Help Centre", availability: "Always available", language: "English", response: "Instant" },
+  { channel: "FAQ and Help Centre", availability: "Always available", language: "English", response: "Instant" },
 ];
 
 export default function ResponsibleSection() {

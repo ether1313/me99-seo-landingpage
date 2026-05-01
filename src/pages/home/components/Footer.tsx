@@ -30,7 +30,7 @@ export default function Footer() {
               />
             </a>
             <p className="text-white/40 text-sm leading-relaxed mb-6">
-              <strong className="text-white/60">ME99 Australia</strong>. The best online pokies and casino platform for Australian players. Trusted and Safest Platform. New register FREE $10, Welcome Bonus 50%, Daily First Deposit 20%. 4000+ games, AUD 10 min deposit, 100% Guaranteed Payout. Verified By TPA.
+              <strong className="text-white/60">ME99 Australia</strong>. Online pokies &amp; casino for Australian players. Trusted &amp; Safest Platform. New register FREE $10, Welcome Bonus (double your first deposit), EVERY DEPOSIT RANDOM BONUS, weekly rebate up to 5%, weekly 7% referral commission. 4,000+ games, AUD 10 min deposit, AUD 50 min withdrawal, 100% Guaranteed Payout. Verified By TPA.
             </p>
             <div className="flex gap-3">
               {SOCIAL_LINKS.map((s) => (
@@ -92,7 +92,7 @@ export default function Footer() {
               </a>{" "}
               or call the Australian Gambling Helpline at <strong className="text-white/60">1800 858 858</strong> (free, 24/7).
             </p>
-            <p className="text-white/30 text-xs">Gambling can be addictive – play responsibly.</p>
+            <p className="text-white/30 text-xs">Gambling can be addictive, so please play responsibly.</p>
 
             <div className="flex flex-wrap items-center gap-4 mt-4">
               <img

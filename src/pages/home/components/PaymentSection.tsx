@@ -3,7 +3,7 @@ const depositMethods = [
   { icon: "ri-google-line", name: "Google Pay", desc: "Quick and secure deposits using Google Pay on Android" },
   { icon: "ri-apple-line", name: "Apple Pay", desc: "Fast and secure deposits using Apple Pay on your devices" },
   { icon: "ri-smartphone-line", name: "Mobile Banking", desc: "Deposits via your Australian bank's official mobile app" },
-  { icon: "ri-visa-line", name: "Visa / Mastercard", desc: "Instant deposits with major credit and debit cards" },
+  { icon: "ri-visa-line", name: "Visa and Mastercard", desc: "Instant deposits with major credit and debit cards" },
   { icon: "ri-exchange-line", name: "Osko", desc: "Real-time bank transfer via Osko. 24/7 instant payments" },
   { icon: "ri-flashlight-line", name: "Speed Pay", desc: "Instant deposits via Speed Pay for rapid transactions" },
   { icon: "ri-bit-coin-line", name: "Cryptocurrency", desc: "Bitcoin (BTC), Ethereum (ETH), USDT supported" },
@@ -13,11 +13,11 @@ const paymentTable = [
   { method: "PayID", minDep: "AUD 10", maxDep: "AUD 50,000", minWith: "AUD 20", maxWith: "AUD 50,000", time: "Instant" },
   { method: "Osko", minDep: "AUD 10", maxDep: "AUD 30,000", minWith: "AUD 20", maxWith: "AUD 30,000", time: "Instant" },
   { method: "Apple Pay", minDep: "AUD 10", maxDep: "AUD 20,000", minWith: "AUD 20", maxWith: "AUD 20,000", time: "Instant" },
-  { method: "Visa / Mastercard", minDep: "AUD 10", maxDep: "AUD 20,000", minWith: "AUD 20", maxWith: "AUD 20,000", time: "Instant" },
+  { method: "Visa and Mastercard", minDep: "AUD 10", maxDep: "AUD 20,000", minWith: "AUD 20", maxWith: "AUD 20,000", time: "Instant" },
   { method: "Google Pay", minDep: "AUD 10", maxDep: "AUD 20,000", minWith: "AUD 20", maxWith: "AUD 20,000", time: "Instant" },
   { method: "Speed Pay", minDep: "AUD 10", maxDep: "AUD 10,000", minWith: "AUD 20", maxWith: "AUD 10,000", time: "Instant" },
-  { method: "Bitcoin (BTC)", minDep: "AUD 50", maxDep: "No Limit", minWith: "AUD 100", maxWith: "No Limit", time: "10–30 min" },
-  { method: "USDT (TRC20)", minDep: "AUD 50", maxDep: "No Limit", minWith: "AUD 100", maxWith: "No Limit", time: "5–15 min" },
+  { method: "Bitcoin (BTC)", minDep: "AUD 50", maxDep: "No Limit", minWith: "AUD 100", maxWith: "No Limit", time: "10 to 30 min" },
+  { method: "USDT (TRC20)", minDep: "AUD 50", maxDep: "No Limit", minWith: "AUD 100", maxWith: "No Limit", time: "5 to 15 min" },
 ];
 
 export default function PaymentSection() {

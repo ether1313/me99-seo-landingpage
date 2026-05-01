@@ -7,7 +7,7 @@ const faqs = [
   },
   {
     q: "Is ME99 legal in Australia?",
-    a: "Online gaming regulations in Australia are governed by the Interactive Gambling Act 2001. Players should review local laws and ensure compliance before participating. ME99 operates under international licensing and implements age verification to ensure only eligible players aged 18+ participate. ME99 is a Trusted and Safest Platform, Verified by TPA.",
+    a: "Online gaming regulations in Australia are governed by the Interactive Gambling Act 2001. Players should review local laws and ensure compliance before participating. ME99 operates under international licensing and implements age verification to ensure only eligible players aged 18+ participate. ME99 is a Trusted and Safest Platform, Verified by Trusted Pokies Australia (TPA).",
   },
   {
     q: "What is the minimum deposit at ME99?",
@@ -15,7 +15,7 @@ const faqs = [
   },
   {
     q: "How do I claim the ME99 welcome bonus?",
-    a: "After registering, you get a FREE $10 instantly with no deposit required. Make your first deposit to unlock the 80% JILI Welcome Bonus. You can also claim a 30% Daily First Deposit Bonus every day, a 50% Live Welcome Bonus for live casino, and a 50% Sport Welcome Bonus for sports betting.",
+    a: "After registering, you get a FREE $10 instantly with no deposit required. Make your first deposit (minimum AUD 10), then open the Promotions area on ME99 (the same flow highlighted on me99office.net) to activate your Welcome Bonus (double your first deposit). You will also see EVERY DEPOSIT RANDOM BONUS offers, weekly rebate up to 5%, weekly 7% commission on referral networks, plus rotating campaigns such as Daily Easy Step Free 100 and the Monthly Deposit Ranking leaderboard. Exact percentages and turnover rules change by campaign, so always read the live promo card before claiming.",
   },
   {
     q: "What payment methods does ME99 accept for Australian players?",
@@ -62,7 +62,7 @@ export default function FaqSection() {
         <div className="space-y-3">
           {faqs.map((faq, i) => (
             <div
-              key={i}
+              key={faq.q}
               className={`glass-card rounded-2xl border transition-all duration-300 ${
                 openIndex === i ? "border-me99-300 shadow-lg shadow-me99-500/5" : "border-gray-100 hover:border-me99-200"
               }`}

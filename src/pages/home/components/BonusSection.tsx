@@ -65,10 +65,10 @@ const bonusGroups = [
       },
       {
         label: "Weekly Commission",
-        badge: "5%",
-        amount: "5% Weekly Commission",
+        badge: "7%",
+        amount: "7% Weekly Commission",
         extra: "",
-        desc: "Refer friends to ME99 and earn 5% commission on their weekly activity. Build your network and earn passive income weekly.",
+        desc: "Share ME99 with your network and earn up to 7% weekly commission on qualifying downline activity. This matches the referral mechanics promoted on me99office.net.",
         gradient: "from-me99-300 to-me99-400",
         icon: "ri-user-add-line",
       },
@@ -139,7 +139,7 @@ const bonusGroups = [
       {
         label: "Deposit Progressive $10-$20",
         badge: "Tier 1",
-        amount: "Deposit $10 - $20",
+        amount: "Deposit $10 to $20",
         extra: "Progressive Bonus",
         desc: "Deposit between AUD 10 and AUD 20 to access the first tier of the progressive bonus system. Small deposits still earn real rewards.",
         gradient: "from-me99-500 to-me99-600",
@@ -148,7 +148,7 @@ const bonusGroups = [
       {
         label: "Deposit Progressive $11-$30",
         badge: "Tier 2",
-        amount: "Deposit $11 - $30",
+        amount: "Deposit $11 to $30",
         extra: "Progressive Bonus",
         desc: "Deposit between AUD 11 and AUD 30 to access the second tier. Increase your deposit amount for progressively larger bonus rewards.",
         gradient: "from-me99-400 to-me99-500",
@@ -157,7 +157,7 @@ const bonusGroups = [
       {
         label: "Deposit Progressive $21-$40",
         badge: "Tier 3",
-        amount: "Deposit $21 - $40",
+        amount: "Deposit $21 to $40",
         extra: "Progressive Bonus",
         desc: "Deposit between AUD 21 and AUD 40 to reach the third progressive tier. Bonus amounts scale with your commitment. The more you deposit, the better the reward.",
         gradient: "from-me99-300 to-me99-400",
@@ -166,7 +166,7 @@ const bonusGroups = [
       {
         label: "Deposit Progressive $31-$60",
         badge: "Tier 4",
-        amount: "Deposit $31 - $60",
+        amount: "Deposit $31 to $60",
         extra: "Progressive Bonus",
         desc: "Deposit between AUD 31 and AUD 60 to access tier four. Serious players get serious bonuses in this mid-high deposit bracket.",
         gradient: "from-me99-500 to-me99-600",
@@ -175,7 +175,7 @@ const bonusGroups = [
       {
         label: "Deposit Progressive $61-$100",
         badge: "Tier 5",
-        amount: "Deposit $61 - $100",
+        amount: "Deposit $61 to $100",
         extra: "Progressive Bonus",
         desc: "Deposit between AUD 61 and AUD 100 for the highest progressive tier. Maximum deposit commitment earns maximum bonus returns.",
         gradient: "from-me99-400 to-me99-500",

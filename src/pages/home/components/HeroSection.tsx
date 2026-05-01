@@ -185,7 +185,7 @@ export default function HeroSection() {
             </h1>
 
             <p className="text-white/50 text-sm md:text-base max-w-lg mx-auto lg:mx-0 mb-8 leading-relaxed">
-              Australia's #1 destination for <strong className="text-me99-400">online pokies</strong> and real money casino gaming. Play 4,000+ games from Pragmatic Play, Evolution Gaming and more. New register <strong className="text-me99-400">FREE $10</strong>. Welcome Bonus 100%. Minimum Deposit <strong className="text-me99-400">AUD 10</strong>. 100% Guaranteed Payout, Verified by TPA.
+              Australia's #1 destination for <strong className="text-me99-400">online pokies</strong> and real money casino gaming. Play 4,000+ games from JILI, BNG, VPower, WF Gaming, Pegasus, Rich88, Joker, UU Slots, Pragmatic Play, Evolution Gaming and more. New register <strong className="text-me99-400">FREE $10</strong>. Welcome Bonus doubles your first deposit. EVERY DEPOSIT RANDOM BONUS, weekly rebate up to 5%, weekly 7% referral commission. Minimum Deposit <strong className="text-me99-400">AUD 10</strong>. 100% Guaranteed Payout, Verified by TPA (Trusted Pokies Australia).
             </p>
 
             {/* Stars */}
@@ -216,7 +216,7 @@ export default function HeroSection() {
               </div>
               <div className="text-left">
                 <span className="text-me99-400 text-sm font-bold block">New Register FREE 10$</span>
-                <span className="text-white/40 text-xs">Welcome Bonus 100% + Daily First Deposit 30%</span>
+                <span className="text-white/40 text-xs">Welcome Bonus, EVERY DEPOSIT RANDOM BONUS, weekly rebate up to 5%</span>
               </div>
             </div>
           </div>
